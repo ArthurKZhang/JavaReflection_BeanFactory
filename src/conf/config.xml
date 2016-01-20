@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean id="javaBean01" class="com.arthur.reflect.JavaBean">
+		<property name="userName">
+			<value>javaBean01</value>
+		</property>
+		<property name="password">
+			<value>123456</value>
+		</property>
+	</bean>
+	<bean id="javaBean02" class="com.arthur.reflect.JavaBean">
+		<property name="userName">
+			<value>javaBean02</value>
+		</property>
+		<property name="password">
+			<value>123456</value>
+		</property>
+	</bean>
+	<bean id="arthurBean" class="com.arthur.reflect.Arthur">
+		<property name="arthurName">
+			<value>ArthurBean</value>
+		</property>
+		<property name="arthurSize">
+			<value>*BOOM*</value>
+		</property>
+	</bean>
+</beans>
